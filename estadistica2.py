@@ -18,11 +18,9 @@ for i in r:
 plt.plot(x,y,'^b')
 
 plt.show()
-
+#La resta es el dx, que funcionara como integrador
 lisga=dot((r[124]-r[123]),y)
-print lisga
-print 
-print sum(lisga)
+
 
 asd=0
 cdf=[]
@@ -33,6 +31,8 @@ for i in y:
 	
 plt.plot(x,cdf,'<b')
 plt.ylim(0,1)
+plt.xlabel("Rango de r")
+plt.ylabel("CDF")
 plt.show()	
 
 
