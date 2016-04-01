@@ -20,5 +20,7 @@ for i in range(1000):
 	ls.append(s)
 
 plt.hist(ls)
+plt.ylabel("Frecuencia")
+plt.xlabel("Porcentaje que sale 18 de 33 en 1000 intentos")
 plt.show()	
 	
