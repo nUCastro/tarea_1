@@ -36,3 +36,12 @@ plt.ylabel("CDF")
 plt.show()	
 
 
+cd1,cd2=[],[]
+y=y/sum(y)
+for i in range(len(y)):
+	if i<0.5*len(y):
+		cd1.append(y[i])
+	if i>0.5*len(y):
+		cd2.append(y[i])
+
+print sum(cd1),sum(cd2)		
