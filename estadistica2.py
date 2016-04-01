@@ -16,7 +16,7 @@ for i in r:
 	y.append(numero)
 
 plt.plot(x,y,'^b')
-plt.title(r"$\'G\'o\'n\'z\'a\'l\'i\'t\'h\'o\'x\'x$")
+
 plt.show()
 
 lisga=dot((r[124]-r[123]),y)
